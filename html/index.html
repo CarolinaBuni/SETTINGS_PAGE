@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <title>Profile</title>
+</head>
+    <body>
+        <div class="parent">
+            <div class="div3">
+                <button id="menu-button">
+                    <img src="./assets/menu.svg" alt="">
+                </button>
+                <ul class="aside open" id="aside">
+        <img src="./assets/Vector 6.png" alt="">
+            <li>
+                
+                <a href="#">
+                    <img src="./assets/home.svg" alt="">
+                </a>
+                Dashboard
+            </li>
+            <li>
+                <a href="">
+                    <img src="./assets/chart.svg" alt="">
+                </a>
+                Friends & Family
+            </li>
+            <li>
+                <a href="">
+                    <img src="./assets/card.svg" alt="">
+                </a>
+                Billing
+            </li>
+            <li>
+                <a href="">
+                    <img src="./assets/settings.svg" alt="">
+                </a>
+                Settings
+            </li>
+        <p>ACCOUNT PAGES</p>
+        <button class="profile-button">
+            <a href="">
+                <img src="./assets/person.svg" alt="">
+            </a>
+            Profile
+        </button>
+        <button class="logOut">
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-power" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#08ECC4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M7 6a7.75 7.75 0 1 0 10 0" />
+                    <path d="M12 4l0 8" />
+                </svg>
+            </a>
+            Log Out
+        </button>
+                </ul>
+            </div>
+        
+            <div class="div4">
+                <!-- <img src="/assets/jorge-fernandez-salas-ChSZETOal-I-unsplash 1 (1).png" alt=""> -->
+                <div class="second-header">
+                    <div class="second-header-container-img">
+                        <img src="./assets/Credits to Unsplash.com (2).png" alt="">
+                        <button class="edit"></button>
+                    </div>
+                    <div class="second-header-info">
+                        <h1>Carlos López Juan</h1>
+                        <p>admin@qubofactory.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="div5">
+                <div class="cards">
+                    <h2>Account Settings</h2>
+                    <p>MY ACCOUNT</p>
+                    <label for="password">Password:
+                        <div class="input-container">
+                            <input type="password" name="password" id="password" placeholder="**********">
+                        </div>
+                    </label>
+                    <p>Delete account: </p>
+                </div>
+                <div class="cards">
+                    <h2>Map Settings</h2>
+                    <p id="miCity">MI CITY</p>
+                    <label for="ciudades">
+                        City Selection: 
+                        <select id="ciudades" name="ciudad">
+                            <option value="madrid">Madrid (Spain)</option>
+                            <option value="nueva-york">Nueva York </option>
+                            <option value="los-angeles">Los Ángeles</option>
+                            <option value="chicago">Chicago</option>
+                            <option value="miami">Miami</option>
+                            <option value="san-francisco">San Francisco</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <script src="./main.js"></script>
+</body>
+</html>
